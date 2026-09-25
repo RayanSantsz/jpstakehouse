@@ -143,7 +143,7 @@ export default function App() {
             ['Rodízio para dois · jantar', 'R$ 199,90', 'Oferta no site oficial'],
           ].map(([title, value, note]) => <article className="offer" key={title}><div><strong>{title}</strong><small>{note}</small></div><b>{value}</b></article>)}
           <p className="source-note">Valores promocionais consultados no site oficial; podem mudar. Bebidas e sobremesas não estão incluídas em todos os vouchers.</p>
-          <a className="outline-link" href="https://jpsalvador.churrascariadigital.com.br/pre-reserva" target="_blank" rel="noreferrer"><span>Fazer reserva</span><ArrowUpRight size={16} /></a>
+          <a className="outline-link" href="https://jpsalvador.reservademesa.com.br/booking" target="_blank" rel="noreferrer"><span>Fazer reserva</span><ArrowUpRight size={16} /></a>
         </div><Visual src={photos.dining} alt="Ambiente e buffet da JP SteakHouse Salvador" caption="Reserve sua mesa · JP Salvador" />
       </section>
 
